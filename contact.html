@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muscululu</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header>
+
+    <nav>
+        <a href="index.html">
+            <img class="logo" src="logomuscu.png" alt="Muscululu">
+        </a>
+        <h1>Muscululu</h1>
+        <div class="right">
+            <a class="about" href="about.html"> A Propos</a>
+            <a class="contact" href="contact.html">Nous contacter</a>
+        </div>
+
+    </nav>
+</header>
+
+<main class="fond-contact">
+
+    <section id="home-hero">
+        <div class="container">
+            <h1>Contactez-nous</h1>
+        </div>
+    </section>
+
+    <section id="home-form">
+        <div class="container">
+
+            <form action="?" method="POST">
+
+                <p>
+                    <label for="first_name" class="required">Prénom</label>
+                    <input type="text"
+                           class="form-control"
+                           id="first_name"
+                           name="first_name"
+                           maxlength="255"
+                           placeholder="éclaire"
+                           value=""
+                           required>
+                </p>
+
+                <p>
+                    <label for="last_name" class="required">Nom</label>
+                    <input type="text"
+                           class="form-control"
+                           id="last_name"
+                           name="last_name"
+                           maxlength="255"
+                           placeholder="Ochoco"
+                           value=""
+                           required>
+                </p>
+
+                <p>
+                    <label for="email" class="required">Email</label>
+                    <input type="email"
+                           class="form-control"
+                           id="email"
+                           name="email"
+                           maxlength="255"
+                           placeholder="eclaire.ochoco@mail.com"
+                           value=""
+                           required>
+                </p>
+                <p>
+
+                    <select class="form-control">
+                        <option value="" selected disabled hidden>Quel est votre âge ?</option>
+                        <option value="valeur1">10-20 ans</option>
+                        <option value="valeur2">20-40 ans</option>
+                        <option value="valeur3">40- 60 ans et +</option>
+                    </select>
+                </p>
+
+
+                <p>
+                    <label for="body" class="required">Précision de votre demande</label>
+                    <textarea class="form-control"
+                              id="body"
+                              name="body"
+                              rows="6"
+                              placeholder=".............."
+                              required
+                    ></textarea>
+                </p>
+
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+
+            </form>
+
+        </div>
+    </section>
+
+</main>
+<footer>
+    <section id="footer">
+        <div class="container-footer">
+            <div class="bloc footer-contact">
+                <h3>Restons en contact</h3>
+                <p>08-45-87-62-56</p>
+                <p>muscululuclient@mail.com</p>
+                <p>25 rue des beaugosse, Clisson 44190</p>
+            </div>
+            <div class="bloc footer-horaires">
+                <h3>Nos horaires</h3>
+                <ul class="liste-horaires">
+                    <li>✔️Lun 8h-16h</li>
+                    <li>✔️Mardi 8h-16h</li>
+                    <li>✔️Mercredi 8h-16h</li>
+                    <li>✔️Jeudi 8h-16h</li>
+                    <li>✔️Ven 8h-16h</li>
+                    <li>❌Sam fermé</li>
+                    <li>❌Dim fermé</li>
+                </ul>
+            </div>
+            <div class="bloc footer-media">
+                <h3>Nos réseaux</h3>
+                <ul class="liste-media">
+                    <li><a href="#"><i class="fab fa-facebook-square"></i>Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i>Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer-bis">
+        <p>copyright© 2021</p>
+
+    </section>
+</footer>
+<script src="https://kit.fontawesome.com/d4b4fb0936.js" crossorigin="anonymous"></script>
+</body>
+</html>
